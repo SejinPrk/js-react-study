@@ -9,5 +9,8 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module" 
+  "type": "module",
+  "dependencies": {
+    "randomcolor": "^0.6.2"
+  }
 }
