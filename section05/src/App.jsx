@@ -1,12 +1,17 @@
-import './App.css';
+import "./App.css";
+import Header from "./components/Header.jsx";
+// vite에서는 .jsx 확장자까지는 없어도 된다.
+import Main from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <>
-      <h1>안녕 리액트!</h1>
+      <Header />
+      <Main />
+      <Footer/>
     </>
   );
 }
 
-export default App
+export default App;
